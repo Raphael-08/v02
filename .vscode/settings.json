@@ -1,0 +1,61 @@
+{
+  // "tsImportSorter.configuration.groupRules": [
+  //   // "^use (client|server)$", // Allow "use client" and "use server" at the top
+  //   "^react(-dom)?$",
+  //   ["^next", "^next/", "^@vercel/"],
+  //   ["^tailwind-merge", "^tailwind-animate", "^tailwindcss", "^next-themes"],
+  //   ["^lucia", "^@lucia-auth/"],
+  //   [
+  //     "^libsql",
+  //     "^drizzle-zod",
+  //     "^drizzle-orm",
+  //     "^drizzle-kit",
+  //     "^zod",
+  //     "^nanoid",
+  //     "^date-fns/"
+  //   ],
+  //   "^resend",
+  //   "^lucide-react",
+  //   ["^cmdk", "^sonner"],
+  //   ["^stripe", "^@stripe/"],
+  //   {},
+  //   "^@/providers/",
+  //   ["^@/components/", "^@/components/ui/"],
+  //   "^@/hooks/",
+  //   "^[@/]",
+  //   "^",
+  //   "^[.]",
+  //   "^@/(lib|providers)/[^/]*type$",
+  //   "^[^/]*type$"
+  // ],
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    }
+  },
+  "cSpell.words": ["datetime", "gtag"],
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#65c89b",
+    "statusBar.background": "#42b883",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#359268",
+    "statusBarItem.remoteBackground": "#42b883",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#42b883",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#42b88399",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#42b883"
+}
